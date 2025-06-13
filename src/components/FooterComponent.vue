@@ -3,7 +3,6 @@
     <div class="container">
       <div class="row">
         <div class="col-md-6">
-          <h5>Анна Романова - профессиональный фотограф</h5>
 
         </div>
         <div class="col-md-6 text-md-end">

@@ -20,8 +20,10 @@ export default {
 </script>
 
 <style>
+
 .main-content {
   min-height: calc(100vh - 120px);
   padding-top: 80px;
 }
+
 </style>

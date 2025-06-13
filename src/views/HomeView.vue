@@ -39,6 +39,10 @@
 </template>
 
 <script>
+import Home1 from '@/assets/Home1.jpg';
+import Home2 from '@/assets/Home2.jpg';
+import Home3 from '@/assets/Home3.jpg';
+
 export default {
   name: 'HomeView',
   data() {
@@ -47,17 +51,17 @@ export default {
         {
           title: 'Индивидуальная съемка',
           description: 'Портретная фотосессия в студии',
-          image: require('@/assets/Home1.jpg')
+          image: Home1
         },
         {
           title: 'Свадебная съемка',
           description: 'Трогательные моменты свадебного дня',
-          image: require('@/assets/Home2.jpg')
+          image: Home2
         },
         {
           title: 'Семейная фотосессия',
           description: 'Теплые семейные моменты',
-          image: require('@/assets/Home3.jpg')
+          image: Home3
         }
       ]
     }
@@ -77,4 +81,6 @@ export default {
   transform: translateY(-5px);
 }
 </style>
+
+
  
