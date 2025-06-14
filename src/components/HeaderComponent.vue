@@ -1,7 +1,10 @@
 <template>
   <nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
     <div class="container">
-      <router-link class="navbar-brand" to="/">Анна Романова</router-link>
+      <router-link class="navbar-brand" to="/">
+        <img src="@/assets/logo.jpg" alt="Логотип" height="60" class="d-inline-block align-top mr-2">
+        Анна Романова
+      </router-link>
       <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
         <span class="navbar-toggler-icon"></span>
       </button>
@@ -42,10 +45,18 @@ export default {
 .navbar-brand {
   font-weight: 700;
   font-size: 1.5rem;
+  display: flex;          /* Use flexbox */
+  align-items: center;   /* Vertical align items */
 }
 .nav-link {
   font-weight: 500;
   margin: 0 10px;
 }
+
+.mr-2 {
+  margin-right: 0.5rem;  /* Adds some space between the logo and text */
+}
 </style>
+
+
 

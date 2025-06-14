@@ -4,7 +4,7 @@
       <div class="container">
         <div class="row align-items-center">
           <div class="col-lg-6">
-            <img src="@/assets/About.jpg" alt="О фотографе" class="img-fluid rounded shadow">
+            <img src="@/assets/About.jpg" alt="О фотографе" class="img-fluid rounded shadow about-image">
           </div>
           <div class="col-lg-6">
             <h2 class="mb-4">Обо мне</h2>
@@ -64,4 +64,12 @@ export default {
 .about-section {
   padding: 80px 0;
 }
+
+.about-image {
+  max-width: 70%; 
+  height: auto;
+  display: block;
+  margin: 0 auto;
+}
 </style>
+
