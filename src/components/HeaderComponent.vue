@@ -45,8 +45,8 @@ export default {
 .navbar-brand {
   font-weight: 700;
   font-size: 1.5rem;
-  display: flex;          /* Use flexbox */
-  align-items: center;   /* Vertical align items */
+  display: flex;          
+  align-items: center;   
 }
 .nav-link {
   font-weight: 500;
@@ -54,7 +54,7 @@ export default {
 }
 
 .mr-2 {
-  margin-right: 0.5rem;  /* Adds some space between the logo and text */
+  margin-right: 0.5rem;  
 }
 </style>
 

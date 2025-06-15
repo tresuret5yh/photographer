@@ -2,7 +2,7 @@
   <div class="container mt-5">
     <h2 class="text-center mb-4">Запишись на фотосессию</h2>
     <div class="row">
-      <div class="col-md-6">
+      <div class="col-md-6 no-padding">  
         <form @submit.prevent="submitForm" class="form-width">
           <div class="mb-2">
             <label for="name" class="form-label form-label-sm">Имя:</label>
@@ -80,7 +80,7 @@ export default {
 .photo-size {
   max-width: 80%;
   height: auto;
-  max-height: 500px; 
+  max-height: 500px;
   margin: 0 auto;
   display: block;
   margin-bottom: 20px;
@@ -91,9 +91,11 @@ export default {
 }
 
 .form-width {
-  max-width: 80%; 
+  max-width: 80%;
+}
+
+.no-padding {
+  padding: 0; 
 }
 </style>
-
-
 
